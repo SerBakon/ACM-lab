@@ -8,7 +8,7 @@ python3 ./week4/test-calls.py
 
 ## WEEK 5 DELIVERABLES
 
-A small RAG experiment over 20 recent arXiv abstracts. See `week5/README.md` for the method, results, and discussion.
+A small RAG experiment over 20 recent arXiv abstracts.
 
 To run it:
 ``` bash
