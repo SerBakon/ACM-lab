@@ -1,0 +1,6 @@
+id,type,question,relevant_doc_ids,retrieved_doc_ids,hit_at_3,recall_at_3,baseline_answer,baseline_correct,rag_answer,rag_correct
+q01,single,Which dataset did the RAG approach for competitive programming use for evaluation?,doc05,doc05;doc17;doc01,1,1.0,The RAG approach for competitive programming used the **APPS dataset** for evaluation.,0,The RAG approach for competitive programming used the CodeContests dataset for evaluation.,1
+q02,single,How many peers does ZeroRAG scale to?,doc09,doc09;doc18;doc17,1,1.0,ZeroRAG scales to **1000** peers.,0,"ZeroRAG scales to 100,000 peers.",1
+q03,single,Which benchmark did Weaver evaluate on?,doc02,doc02;doc11;doc03,1,1.0,Weaver evaluated on the **GLUE benchmark**.,0,"Weaver evaluated on personalized RAG benchmarks, particularly PersonaMem.",1
+q04,single,How many hierarchical graph-probing tools does SkinMind provide?,doc20,doc20;doc06;doc02,1,1.0,SkinMind provides **two** hierarchical graph-probing tools.,0,SkinMind provides eight hierarchical graph-probing tools.,1
+q05,single,What is the name of the differentially private framework proposed for GraphRAG?,doc14,doc14;doc09;doc06,1,1.0,DP-GraphRAG,0,RelGuard,1

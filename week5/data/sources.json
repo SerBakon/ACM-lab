@@ -1,0 +1,147 @@
+{
+  "retrieved": "2026-11-09",
+  "source": "arXiv API",
+  "query": "retrieval-augmented generation, Nov 2026",
+  "documents": [
+    {
+      "doc_id": "doc01",
+      "arxiv_id": "2611.04264v1",
+      "url": "https://arxiv.org/abs/2611.04264v1",
+      "license": "see arXiv abs page",
+      "sha256": "169551badcf054f391027ff39a4b251b2d40ea669d549a616dc11110bb8fbe2a"
+    },
+    {
+      "doc_id": "doc02",
+      "arxiv_id": "2611.05900v1",
+      "url": "https://arxiv.org/abs/2611.05900v1",
+      "license": "see arXiv abs page",
+      "sha256": "6c5301cb5d9be374ecd7a3de6bf08d8ecb5d38879995e8f0046813b2ae4d5148"
+    },
+    {
+      "doc_id": "doc03",
+      "arxiv_id": "2611.09807v1",
+      "url": "https://arxiv.org/abs/2611.09807v1",
+      "license": "see arXiv abs page",
+      "sha256": "29693d21f50605d946c047d6fe58ef35a5cddbf370d2c3b3f5b3ae37080fb540"
+    },
+    {
+      "doc_id": "doc04",
+      "arxiv_id": "2611.09298v1",
+      "url": "https://arxiv.org/abs/2611.09298v1",
+      "license": "see arXiv abs page",
+      "sha256": "cf641b18d498e6f05a6c82c230ba77ceb20a753a2a5a3950608fac4f52cdcefd"
+    },
+    {
+      "doc_id": "doc05",
+      "arxiv_id": "2611.09791v1",
+      "url": "https://arxiv.org/abs/2611.09791v1",
+      "license": "see arXiv abs page",
+      "sha256": "7ae3530b73565d36a6fa0b1a4bad416b38f6ea21165218140295bf7176a3100e"
+    },
+    {
+      "doc_id": "doc06",
+      "arxiv_id": "2611.06481v1",
+      "url": "https://arxiv.org/abs/2611.06481v1",
+      "license": "see arXiv abs page",
+      "sha256": "532d957b2a379f43ba907e597145a73a6ac7ea3bd10f6ff056b58d951d4c7540"
+    },
+    {
+      "doc_id": "doc07",
+      "arxiv_id": "2611.09090v1",
+      "url": "https://arxiv.org/abs/2611.09090v1",
+      "license": "see arXiv abs page",
+      "sha256": "8b7c2d64ca0542ae29eaeff7e59e4e4d9624badf805547cbfd83ba84582e7a69"
+    },
+    {
+      "doc_id": "doc08",
+      "arxiv_id": "2611.07393v2",
+      "url": "https://arxiv.org/abs/2611.07393v2",
+      "license": "see arXiv abs page",
+      "sha256": "aa757c8d43136b7cddd10a15bea62bc9cd657afda8fdc29eb5777bfcdf4d315c"
+    },
+    {
+      "doc_id": "doc09",
+      "arxiv_id": "2611.07928v1",
+      "url": "https://arxiv.org/abs/2611.07928v1",
+      "license": "see arXiv abs page",
+      "sha256": "4e7364774b96430722529f44d48716bb22597d841144384020acd2a7c7654dfa"
+    },
+    {
+      "doc_id": "doc10",
+      "arxiv_id": "2611.06498v1",
+      "url": "https://arxiv.org/abs/2611.06498v1",
+      "license": "see arXiv abs page",
+      "sha256": "54eecdd45003baea190bd30a3d12969b3116bc4bba4712f027b81e4c5314b9ca"
+    },
+    {
+      "doc_id": "doc11",
+      "arxiv_id": "2611.06715v1",
+      "url": "https://arxiv.org/abs/2611.06715v1",
+      "license": "see arXiv abs page",
+      "sha256": "c01af2e7447328dd8ebd0521462fb1506de0343896da3e97d11753be0eb68a78"
+    },
+    {
+      "doc_id": "doc12",
+      "arxiv_id": "2611.09232v1",
+      "url": "https://arxiv.org/abs/2611.09232v1",
+      "license": "see arXiv abs page",
+      "sha256": "32d3989391f8d519893f098fe7db5b3793c0f58561b2eba5e84aef5978438cb7"
+    },
+    {
+      "doc_id": "doc13",
+      "arxiv_id": "2611.08054v1",
+      "url": "https://arxiv.org/abs/2611.08054v1",
+      "license": "see arXiv abs page",
+      "sha256": "7803ac0d89ad36af76da6da005c6b110bfe04127a0a4a2de732764703850889d"
+    },
+    {
+      "doc_id": "doc14",
+      "arxiv_id": "2611.09658v1",
+      "url": "https://arxiv.org/abs/2611.09658v1",
+      "license": "see arXiv abs page",
+      "sha256": "68b2db3b7d714a31cee2d3e7d682b651f767b4f5c63a35f2dcef6e9efe77ce38"
+    },
+    {
+      "doc_id": "doc15",
+      "arxiv_id": "2611.09423v1",
+      "url": "https://arxiv.org/abs/2611.09423v1",
+      "license": "see arXiv abs page",
+      "sha256": "b3cb351a37f941c40e0375645ff19283ffc7271e5d02162c55f74e820212eef1"
+    },
+    {
+      "doc_id": "doc16",
+      "arxiv_id": "2611.04625v1",
+      "url": "https://arxiv.org/abs/2611.04625v1",
+      "license": "see arXiv abs page",
+      "sha256": "92844398712a5297968639681e18628ac6e94985b060c8078c029cd8791efe5a"
+    },
+    {
+      "doc_id": "doc17",
+      "arxiv_id": "2611.05596v1",
+      "url": "https://arxiv.org/abs/2611.05596v1",
+      "license": "see arXiv abs page",
+      "sha256": "70c18a36725b47ddfeddf6e630508cb90438d4b9ce1496c7a973b223c300db9b"
+    },
+    {
+      "doc_id": "doc18",
+      "arxiv_id": "2611.07517v1",
+      "url": "https://arxiv.org/abs/2611.07517v1",
+      "license": "see arXiv abs page",
+      "sha256": "f06a0ba69e65b52d0c5c5014abc87f593289003651724bdd3abc554f61dce4bd"
+    },
+    {
+      "doc_id": "doc19",
+      "arxiv_id": "2611.09414v1",
+      "url": "https://arxiv.org/abs/2611.09414v1",
+      "license": "see arXiv abs page",
+      "sha256": "07ebc1135027e23d65e85c0f988c7ca410d6b915078f3e4ec3b2d257e3e3fccc"
+    },
+    {
+      "doc_id": "doc20",
+      "arxiv_id": "2611.08935v1",
+      "url": "https://arxiv.org/abs/2611.08935v1",
+      "license": "see arXiv abs page",
+      "sha256": "90baed81d8d41290f0e3fbf3bd15a5a220df05f26cb259fed3469aaeccee24cc"
+    }
+  ]
+}

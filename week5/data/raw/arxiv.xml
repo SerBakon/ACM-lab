@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4vCFEpEXR6q43FAJT1KHzZj3mMg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2611.09807,2611.09791,2611.09658,2611.09423,2611.09414,2611.09298,2611.09232,2611.09090,2611.08935,2611.08054,2611.07928,2611.07517,2611.07393,2611.06715,2611.06498,2611.06481,2611.05900,2611.05596,2611.04625,2611.04264&amp;start=0&amp;max_results=20</title>
+  <updated>2026-11-09T21:34:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=20&amp;id_list=2611.09807,2611.09791,2611.09658,2611.09423,2611.09414,2611.09298,2611.09232,2611.09090,2611.08935,2611.08054,2611.07928,2611.07517,2611.07393,2611.06715,2611.06498,2611.06481,2611.05900,2611.05596,2611.04625,2611.04264" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2611.04264v1</id>
+    <title>Reliability Stress Testing of RAG Retrieval under Query-Relevant Corpus Poisoning</title>
+    <updated>2026-11-03T03:52:58Z</updated>
+    <link href="https://arxiv.org/abs/2611.04264v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.04264v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>External text can affect a retrieval-augmented generation (RAG) system only after the retriever admits it to the model context. We stress this admission step while varying document content, attacker query information, per-target poison budget, and contamination scope. Across 623 Benchmarking Information Retrieval (BEIR) queries from SciFact and NFCorpus, five query-targeted documents per query reduce classical-retriever nDCG@10 by 40.2-61.5% in isolated-target stress. Full-query anchoring explains most Best Matching 25 (BM25) degradation, whereas appended text also shifts latent semantic analysis (LSA) and Hybrid rankings. A pretrained BGE-small validation reaches 100% target exposure for query-only P=5 on both datasets; adding the injection payload changes SciFact nDCG only from 0.269 to 0.271 and lowers NFCorpus exposure slightly to 98.8%, indicating that query anchoring remains the dominant retrieval-side factor for this dense model. Query length materially changes the interpretation of partial-information attacks: on 162 long SciFact queries, two random terms cover 19.9% of eligible terms and still yield 39.5% Hybrid target exposure. Multi-target contamination adds cross-target interference. Overlap-based admission can remove full-query poisons but may sharply reduce clean retrieval utility, and maximal marginal relevance (MMR) leaves exposure unchanged under the tested configuration. The study measures retrieval-layer failures, not downstream instruction following.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-03T03:52:58Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Janet Sung</name>
+    </author>
+    <author>
+      <name>Kainan Zhou</name>
+    </author>
+    <author>
+      <name>Gangzhen Qian</name>
+    </author>
+    <author>
+      <name>Hang Xiao</name>
+    </author>
+    <author>
+      <name>Lu Yi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.05900v1</id>
+    <title>Weaver: Weaving Preference Evidence through Incremental Reasoning for Personalized Retrieval-Augmented Generation</title>
+    <updated>2026-11-04T03:48:15Z</updated>
+    <link href="https://arxiv.org/abs/2611.05900v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.05900v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Personalized retrieval-augmented generation requires extracting and applying user preferences from extended interaction histories. This task is challenging because preference evidence is scattered across past conversations and remains bound to specific temporal and situational contexts. Consequently, isolated fragments rarely provide complete support for a response, while preferences expressed under different conditions are easily conflated. To address these limitations, we propose Weaver, a framework that incrementally weaves memory-conditioned retrieval trajectories with compositional preference reasoning for personalized responses. Weaver operates on a Dual-Layer Retrieval and Reasoning Graph that couples an upper Intent Dependency Graph with a lower Memory-Conditioned Retrieval Trajectory Graph. Dependency Information Gap Tracking represents the information needed to answer the current request and its prerequisite dependencies in the upper graph. Memory-Conditioned Incremental Retrieval uses established premises and clues from retrieved conversations to locate missing evidence, recording the resulting retrieval trajectories in the lower graph. Scope-Aware Compositional Reasoning jointly interprets the accumulated evidence to determine which preferences apply to the request. It identifies complementary and alternative support and distinguishes conflicting claims within the same temporal and situational context. These conclusions iteratively update task premises and remaining information gaps, guiding subsequent retrieval to establish a coherent contextual basis for the final response. Experiments on personalized RAG benchmarks, particularly PersonaMem, demonstrate that Weaver outperforms leading baselines in both evidence completeness and answer quality.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-04T03:48:15Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Linyao Zheng</name>
+    </author>
+    <author>
+      <name>Zhifang Mao</name>
+    </author>
+    <author>
+      <name>Xuhang Shi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.09807v1</id>
+    <title>Compaction, decay and reinforcement in a two-tier conversational memory: a paired evaluation against retrieval-augmented generation</title>
+    <updated>2026-11-06T17:56:37Z</updated>
+    <link href="https://arxiv.org/abs/2611.09807v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.09807v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A conversational agent that remembers has to decide what to keep. Retrieval-augmented generation keeps the transcript and searches it; the alternative is to compact each turn into atomic facts and search those. We compare the two on LoCoMo, with both arms answering all 1,985 questions in one window, against the same stores, with the same generator and judge, and both predictions on one row, which licenses McNemar's exact test on the 512 questions where they disagree.
+  On the four categories comparable work reports, compaction scores 71.4 per cent against 64.6, a lead of 6.8 points (p = 5.5e-08) at 34 per cent fewer prompt tokens. On all five, including the adversarial set comparable work drops, the lead falls to 2.0 and stops being significant, because the baseline leads adversarial by 14.6.
+  That loss has a structure. Our lead falls as the reference answer demands more source wording, 9.6 points ahead at one or two reference words and 3.1 behind past eight, with token overlap moving the same way, so the judge is not the cause. Compaction keeps what a fact asserts and discards how it was said, so it wins where the answer is a value and loses where it is a phrasing. We also report four negative results with their power calculations.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-06T17:56:37Z</published>
+    <arxiv:comment>7 figures. Data and code: https://github.com/BigBrown10/nmafc-paper</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Osamudiamen Edogun</name>
+    </author>
+    <author>
+      <name>Joshua Obigwe</name>
+    </author>
+    <author>
+      <name>Irfan Mehmood</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.09298v1</id>
+    <title>Towards an Autonomous AI Steward for Large-Scale Physics Experiments: Integrating Causal Diagnostics, RAG, and Conformal Prediction</title>
+    <updated>2026-11-06T10:52:19Z</updated>
+    <link href="https://arxiv.org/abs/2611.09298v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.09298v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term particle physics experiments face critical operational challenges: monitoring non-stationary machine data streams and preserving tacit expert knowledge. We present the "Helmholtz Co-Pilot," a hybrid Multi-Agent System (MAS) acting as an autonomous experiment steward. The system can be triggered interactively by human operators or autonomously by an asynchronous causal diagnostics engine that runs independently of the MAS reasoning core. Continuously monitoring live hardware streams such as data acquisition and slow control, this engine performs dynamic causal discovery to trace cascading alarms back to their root causes and applies adaptive model selection to keep forecasts reliable across shifting machine states; upon detecting an anomaly, it hands a structured diagnostic report to the MAS. The reasoning layer itself relies on a high-throughput C++ core and a Python edge architecture orchestrating a directed acyclic graph (DAG) of specialized ReAct workers. It integrates a Retrieval-Augmented Generation (RAG) backbone for institutional memory and leverages conformal prediction to bound its evidence-based recommendations with mathematical coverage guarantees. This extended abstract outlines the architecture, the integration of software-enforced Human-in-the-Loop (HitL) guardrails, and ongoing shadow-testing within the KATRIN experiment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-06T10:52:19Z</published>
+    <arxiv:comment>4 pages, 1 figure, 2nd International Conference on AI for Science (AI4Sci2026), 5-9 October 2026, Mainz, Germany (PoS)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Oliver Noll</name>
+    </author>
+    <author>
+      <name>Nicholas Tan Jerome</name>
+    </author>
+    <author>
+      <name>Alexander Lehnen</name>
+    </author>
+    <author>
+      <name>Frank Simon</name>
+    </author>
+    <author>
+      <name>Frank Maas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.09791v1</id>
+    <title>Assessing the Impact of Retrieval-Augmented Generation on Algorithmic Problem-Solving</title>
+    <updated>2026-11-06T17:46:28Z</updated>
+    <link href="https://arxiv.org/abs/2611.09791v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.09791v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Competitive programming problems pose distinctive challenges for Large Language Models, as they demand not only proficient code generation but also advanced algorithmic reasoning. This study presents a Retrieval-Augmented Generation approach specifically designed to enhance the capacity of Large Language Models to address such problems. Our approach integrates an embedding-based retrieval mechanism and a similarity search algorithm to identify analogous problems within a knowledge database, employing a dynamically adjusted threshold to mitigate retrieval noise. We conducted an evaluation using the CodeContests dataset, focusing on the test split problems that exhibit similarity to instances from the training split. The experimental framework considered three conditions: (i) problems provided solely with their original descriptions, (ii) problems supplemented with randomly selected examples from the training split, and (iii) problems augmented with similar examples retrieved through the proposed method. In addition, we incorporated a Min-K membership inference analysis to examine whether the generated code solutions were influenced by potential memorization of training data within the evaluated Large Language Models. This complementary perspective enables a deeper understanding of model behavior by distinguishing genuine generalization through retrieval from implicit recall of pretraining samples. Performance was assessed using both pass rates and the CodeForces Elo rating of the problems. The results provide empirical evidence that similarity-based retrieval substantially enhances Large Language Models performance in competitive programming scenarios, offering an scalable framework for improving code generation in algorithmic problem-solving contexts.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-06T17:46:28Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Gabriel Souza Baggio</name>
+    </author>
+    <author>
+      <name>Gabriel Machado Lunardi</name>
+    </author>
+    <author>
+      <name>Guilherme Medeiros Machado</name>
+    </author>
+    <author>
+      <name>Subhankar Maity</name>
+    </author>
+    <author>
+      <name>Faiza Belbachir</name>
+    </author>
+    <author>
+      <name>José Palazzo Moreira de Oliveira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.06481v1</id>
+    <title>ArcRAG: Agentic Compositional Retrieval over Knowledge Graphs</title>
+    <updated>2026-11-04T13:20:51Z</updated>
+    <link href="https://arxiv.org/abs/2611.06481v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.06481v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph-based retrieval-augmented generation (GraphRAG) answers questions by retrieving over a knowledge graph built from a corpus. Yet retrieval strategies are designed around the structure their own construction pipeline produces, and whether they survive a change of construction is rarely tested. We study this cross-construction portability: whether one retrieval procedure, with no construction-specific schema, relation names, or retuning, stays effective when the graph is built differently. We introduce ArcRAG, which induces a query-local graph interface at inference time (the node labels, relation descriptors, and property keys reachable from the entities a question names), plans multi-hop traversals against it, and executes and repairs them as Cypher. We build each of the MuSiQue, HotpotQA, and TriviaQA corpora as a schema-guided graph (typed nodes, a closed relation set, source provenance) and as an open-information-extraction graph (untyped nodes, free-text relations), with the retriever's configuration fixed across them. We compare against a construction-agnostic Direct-Cypher agent, ablate each stage across retry and pass budgets on both graph families, and compare with results reported for prior GraphRAG systems, most of which design retrieval together with their own graph construction. Across the two constructions, we find that retrieval need not be co-designed with the graph: query-time interface induction keeps a construction-agnostic retriever effective when the construction changes, although construction still shapes absolute accuracy.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-04T13:20:51Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jyotin Goel</name>
+    </author>
+    <author>
+      <name>Abhinav Arun</name>
+    </author>
+    <author>
+      <name>Tejas Prakash Agarwal</name>
+    </author>
+    <author>
+      <name>Bhaskarjit Sarmah</name>
+    </author>
+    <author>
+      <name>Stefano Pasquali</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.09090v1</id>
+    <title>MARS: Training Multilingual Search Agents for Retriever-Free Evidence Acquisition</title>
+    <updated>2026-11-06T07:20:03Z</updated>
+    <link href="https://arxiv.org/abs/2611.09090v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.09090v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing multilingual retrieval-augmented generation relies heavily on learned retrievers and similarity-based ranking from multilingual collections, which are vulnerable to cross-lingual retrieval errors and indexing overhead. In this paper, we explore retriever-free multilingual search, where the model directly interacts with raw corpora through executable shell commands. This paradigm shifts the bottleneck to multilingual search action generation, where exact search is sensitive to entity surface forms and outcome-only supervision provides limited guidance for multi-turn search. To address these challenges, we propose MARS, a multilingual search agent in direct corpus interaction (DCI) with reinforcement learning (RL). MARS introduces corpus-native entity grounding to recover reliable lexical anchors from corpus evidence, mitigating failure to retrieve evidence. Meanwhile, we present a redundancy-aware search reward to encourage concise and effective search trajectories, addressing training collapse in RL of multilingual scenarios. Experiments show that \ours~consistently outperforms strong retrieval-based and DCI baselines, while demonstrating robust cross-lingual generalization and substantially reducing redundant corpus interactions.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-06T07:20:03Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rui Qi</name>
+    </author>
+    <author>
+      <name>Yunlong Liang</name>
+    </author>
+    <author>
+      <name>Yufeng Chen</name>
+    </author>
+    <author>
+      <name>Jinan Xu</name>
+    </author>
+    <author>
+      <name>Fandong Meng</name>
+    </author>
+    <author>
+      <name>Kaiyu Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.07393v2</id>
+    <title>CacheGraft: Enhancing Retrieval-Augmented Generation via Latent-Space Document Enrichment</title>
+    <updated>2026-11-06T15:33:28Z</updated>
+    <link href="https://arxiv.org/abs/2611.07393v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.07393v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work in machine learning has demonstrated that transformer-based language model agents can communicate state not only through text, but also directly in latent space via key-value (KV) caches. In this paper, we argue that such cache-to-cache translation can provide utility beyond the original motivating application of real-time agent communication and can instead be utilized for retrieval-augmented generation (RAG). Building on the Cache-to-Cache (C2C) fusion framework, our proposed system CacheGraft encodes each corpus passage offline into a fused KV cache representation between a larger sharer model (4B parameters in our experiments) and a smaller receiver model (0.6B parameters) such that this cache can be injected into the receiver at query time with no need for the larger model. Across five QA benchmarks and two independent locally-run judges, CacheGraft improves answer quality over the text-only receiver baseline in 29 out of 30 comparisons, of which 17 of the 30 are statistically significant. Notably, these gains are zero-shot with respect to the fuser, which was never trained on retrieval data. These initial results suggest that latent-space document enrichment may be a promising avenue for enhancing the performance of RAG systems, particularly in compute-constrained settings where it is only feasible to deploy a small model at inference time.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-05T03:43:22Z</published>
+    <arxiv:comment>5 pages. Third KEIR Workshop @ CIKM 2026. Work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Vihan Lakshman</name>
+    </author>
+    <author>
+      <name>Peter Baile Chen</name>
+    </author>
+    <author>
+      <name>Zhuohan Gu</name>
+    </author>
+    <author>
+      <name>Michael Cafarella</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.07928v1</id>
+    <title>ZeroRAG: Adaptive Semantic Peer Routing for Decentralized Retrieval-Augmented Generation</title>
+    <updated>2026-11-05T12:33:45Z</updated>
+    <link href="https://arxiv.org/abs/2611.07928v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.07928v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-augmented generation (RAG) is a standard approach to enhance the reliability of large language model (LLM) outputs by retrieving documents relevant to a query and supplying them in the LLM prompt. Today's RAG systems collect, index, and serve these documents from centralized stores. In practice, however, documents are owned by organizations, devices, and individuals who cannot or will not surrender custody of them to a central party, e.g., because of privacy, copyright or regulatory compliance. Existing modern decentralized retrieval techniques either reintroduce a coordinating authority, or rely on a global data structure that requires continuous network-wide coordination (e.g., DHTs). We present ZeroRAG, a decentralized routing layer for document retrieval in RAG that performs semantic query routing across an overlay of peers with- out global data structures or centralized orchestration. Documents remain with the peers that own them, and each peer keeps only lightweight local state: a bounded set of neighbor advertisements and a cache of recently routed queries. Using these, ZeroRAG steers each query through a best-first walk that progressively rewires the overlay toward semantically relevant neighbors, so recall improves over time as the network self-organizes. We evaluate ZeroRAG using three real-world workloads and two decentralized baselines. We find that ZeroRAG outperforms baselines in terms of recall and required network messages, approaches the recall and LLM answer accuracy of a centralized document store, self-heals after catastrophic peer failures, and scales to 100 000 peers.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-05T12:33:45Z</published>
+    <arxiv:comment>14 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Petru Neague</name>
+    </author>
+    <author>
+      <name>Quinten Stokkink</name>
+    </author>
+    <author>
+      <name>Martijn de Vos</name>
+    </author>
+    <author>
+      <name>Rafael Pires</name>
+    </author>
+    <author>
+      <name>Mathis Randl</name>
+    </author>
+    <author>
+      <name>Anne-Marie Kermarrec</name>
+    </author>
+    <author>
+      <name>Johan Pouwelse</name>
+    </author>
+    <arxiv:doi>10.1145/3801927.3858412</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3801927.3858412" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.06498v1</id>
+    <title>Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation</title>
+    <updated>2026-11-04T13:32:04Z</updated>
+    <link href="https://arxiv.org/abs/2611.06498v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.06498v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors encode its text. We study this text-vector integrity gap. A verifier that recomputes vectors and accepts them within a cosine tolerance concedes a predictable share of queries to an attacker who controls the vectors: the hijack rate equals the distribution of angular retrieval margins at the tolerance (the margin law). Margins are small in five corpora and two embedding models, so an idealised tolerance at the level of floating-point noise leaves up to 5.5% of queries exposed (at most 1.2% in any corpus once exact duplicate documents are excluded), and a threshold calibrated from our CPU INT8-FP32 comparison of a small embedding model (at the empirical 0.1% quantile of honest cosines) leaves 98-100% exposed; on a Raspberry Pi 5 running a local language model, such an attack lowers correct answers from 0.75 to 0.39. Integrity audits of compressed vector stores fare no better: on a FAISS product-quantisation index over 57,638 documents, tampered vectors that all pass the audit put the attacker's document first for 25% of targets. Verifying quantisation codes instead, with ambiguity decided by the verifier, a calibrated guard band and canonicalisation, accepted every honest vector in our samples on three platforms and left the publisher no choice. We also show that common floating-point and dynamic-INT8 inference pipelines are not bit-reproducible across batch sizes or architectures, and report pre-registered negative results on abstention, context pruning and semantic screening. We release code and data.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-04T13:32:04Z</published>
+    <arxiv:comment>20 pages, 2 figures, 7 tables. Code and data: https://github.com/securagenai/signed-but-steerable (DOI 10.5281/zenodo.23948839)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Georgios Feretzakis</name>
+    </author>
+    <author>
+      <name>Alexandros Papaspyridis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.06715v1</id>
+    <title>Reasoning over Non-Parametric Memory in Multilingual LLMs: A Cognitive-Based Analysis of Relational Knowledge</title>
+    <updated>2026-11-04T16:11:26Z</updated>
+    <link href="https://arxiv.org/abs/2611.06715v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.06715v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-augmented generation (RAG) assumes that language models can reason over relations stated in their context rather than fall back on associations memorized during pretraining. We study this evidence-conditioned relational reasoning in isolation, with the facts supplied directly in the prompt rather than retrieved. \textsc{Rel-Bloom} is a controlled multilingual diagnostic of 450 multiple-choice questions built from 30 Wikidata relations; the same source relations are instantiated at five Bloom-inspired levels (Remember, Understand, Apply, Analyze, Evaluate) and under three veracity conditions (Factual, Counterfactual, Neutralized). Across 43 models, six languages, and two multilingual settings (226,800 predictions), three findings stand out. First, accuracy drops sharply from Apply to Analyze in every evaluated open-weight model series, reaching 47.2 percentage points for the Large Granite bucket, but not for either Gemini model. Second, Evaluate items remain a bottleneck even for models near ceiling on the other task types: Gemini~3.1 Pro averages 99.5\% on the other four levels but 60.7\% on Evaluate. Third, item- and relation-level difficulty rankings are consistently preserved across languages, indicating a difficulty structure partly shared across languages within this benchmark. Across knowledge conditions, Counterfactual contexts are generally harder than Factual ones, while removing entity identities can improve higher-level performance in some model regimes. Greater model capability therefore does not by itself ensure reliable reasoning over supplied relational evidence. Relevant resources are available at: https://huggingface.co/spaces/QCRI/non-parametric-memory-relational-reasoning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-04T16:11:26Z</published>
+    <arxiv:comment>Published at COLM 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>COLM 2026</arxiv:journal_ref>
+    <author>
+      <name>Zohreh Abbasi Liasi</name>
+    </author>
+    <author>
+      <name>Batoul Hammoud</name>
+    </author>
+    <author>
+      <name>Anas Madkoor</name>
+    </author>
+    <author>
+      <name>Ehsaneddin Asgari</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.09232v1</id>
+    <title>RAG-Enhanced LLMs for Interactive Explainability in Clinical Decision Support Systems</title>
+    <updated>2026-11-06T09:50:51Z</updated>
+    <link href="https://arxiv.org/abs/2611.09232v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.09232v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial Intelligence (AI) is increasingly embedded in high-risks decision-making systems across domains such as healthcare, finance, and the judicial system. As reliance on predictive models grows, so does the demand for Explainable AI (XAI) to ensure transparency, trust, and interpretability. However, existing XAI approaches often fail to present explanations in a format accessible to domain experts, limiting their practical utility. Large Language Models (LLMs) have recently emerged as a bridge between complex models and end-users, offering natural language explanations. Yet, their use introduces new risks, including hallucinated outputs and lack of source traceability. To address these challenges, we propose a Clinical Decision Support System (CDSS) that not only combines standard predictive models with XAI techniques but also incorporates a Retrieval-Augmented Generation module as an interactive enhancer. This module grounds explanations in verified medical knowledge, reformulates technical outputs into a human-like format, and enables users-such as clinicians-to actively query the system. By fostering an interactive, human-in-the-loop environment, our approach empowers domain experts to explore model decisions, contextualize explanations, and build trust in AI-assisted diagnostics. The study concludes with preliminary experiments validating the proposed methodology.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-06T09:50:51Z</published>
+    <arxiv:comment>Published in HC_AIxIA_HYDRA 2025, Communications in Computer and Information Science, vol. 2830, pp. 50-63, Springer, 2026. Please cite the published version: doi:10.1007/978-3-032-16708-8_4</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Communications in Computer and Information Science, vol. 2830, pp. 50-63 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Lorenzo Mannocci</name>
+    </author>
+    <author>
+      <name>Francesca Naretto</name>
+    </author>
+    <author>
+      <name>Lucia Passaro</name>
+    </author>
+    <author>
+      <name>Anna Monreale</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-032-16708-8_4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-032-16708-8_4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.08054v1</id>
+    <title>NutriVisRAG: Multimodal Exemplar Grounding for Nutrient Estimation with Vision-Language Models</title>
+    <updated>2026-11-05T14:10:35Z</updated>
+    <link href="https://arxiv.org/abs/2611.08054v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.08054v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diet is a major determinant of health, yet accurate dietary assessment from free-living meal images remains challenging. Existing retrieval-based Vision-Language Model (VLM) approaches to nutrient estimation typically rely on textual food representations, while, to our knowledge, direct grounding on visually similar annotated meals has not been investigated. We present NutriVisRAG, a retrieval-augmented generation framework that uses a vision encoder to retrieve similar meals with known nutritional annotations and provide them as multimodal in-context exemplars for VLM nutrient estimation at inference time, without task-specific fine-tuning. We evaluate NutriVisRAG across four datasets, four VLMs, three retrieval encoders, and two prompting strategies, including free-living meals from adults with insulin-treated diabetes, where carbohydrate estimates are compared against two dietitians' annotations. Across all 96 configurations (4 datasets x 4 VLMs x 3 retrieval encoders x 2 prompting strategies), NutriVisRAG reduced the primary estimation error in 56, with improvements more frequent under whole-meal (35/48) than per-item prompting (21/48). Across the evaluated configurations, the lowest NutriVisRAG error was below the best Vanilla error in 13 of 16 VLM--dataset pairs. For GPT-5.4-mini, under whole-meal prompting, the best-performing retrieval encoder for each dataset reduced the primary error on all four datasets relative to Vanilla, with reductions of 1.7--35.7%. Overall, our results show that grounding in multimodal exemplars comprising images and respective annotations can improve nutrient estimation at inference time without task-specific fine-tuning, although the benefits remain configuration-dependent.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-05T14:10:35Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Lubnaa Abdur Rahman</name>
+    </author>
+    <author>
+      <name>Ioannis Papathanail</name>
+    </author>
+    <author>
+      <name>Maria Panagiotou</name>
+    </author>
+    <author>
+      <name>Nefeli Dimitropoulou</name>
+    </author>
+    <author>
+      <name>Margret Harðardóttir</name>
+    </author>
+    <author>
+      <name>Elisabeth J. den Brok</name>
+    </author>
+    <author>
+      <name>Bastiaan E. de Galan</name>
+    </author>
+    <author>
+      <name>Stavroula Georgia Mougiakakou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.09658v1</id>
+    <title>Differentially Private GraphRAG: Protecting Relation Connectivity and Semantics</title>
+    <updated>2026-11-06T16:06:30Z</updated>
+    <link href="https://arxiv.org/abs/2611.09658v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.09658v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph Retrieval-Augmented Generation (GraphRAG) connects information across documents through entity relationships to support relational reasoning. However, black-box access to GraphRAG systems can enable adversaries to reconstruct knowledge graphs and recover both structural connectivity between entities and the semantics of their relationships. Existing defenses lack formal privacy guarantees and provide limited protection against such reconstruction attacks. We propose RelGuard, the first differentially private framework for GraphRAG, which provides formal privacy guarantees by mitigating connectivity leakage and protecting relations and their semantic meaning through relation removal. We formalize relation differential privacy (relation-DP), which bounds the distinguishability of mechanism outputs according to the semantic distance between alternative relations while accounting for relation removal. Building on this definition, we develop a four-step defense mechanism that sanitizes source documents before GraphRAG indexing by perturbing relation predicates or removing their associated connectivity using the exponential mechanism. Experiments across three GraphRAG systems and two targeted reconstruction attacks demonstrate that RelGuard provides stronger protection against reconstruction attacks than four existing defense mechanisms while better preserving downstream utility.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-06T16:06:30Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jie Fu</name>
+    </author>
+    <author>
+      <name>Yuan Hong</name>
+    </author>
+    <author>
+      <name>Yue Ning</name>
+    </author>
+    <author>
+      <name>Wendy Hui Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.09423v1</id>
+    <title>Agentic AI for Healthcare Claim Denial Analysis: A Policy-Grounded Framework for Privacy Preservation</title>
+    <updated>2026-11-06T12:51:18Z</updated>
+    <link href="https://arxiv.org/abs/2611.09423v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.09423v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the healthcare sector, claim denials impose significant financial and administrative burdens, emphasizing the need for automated and trustworthy decision-support systems. This paper proposes a modular Agentic Artificial Intelligence (AI) framework for healthcare claim denial analysis, integrating specialized agents for denial risk prediction, risk factor identification, diagnosis-procedure-medication code relationship analysis, and counterfactual analysis. The framework integrates predictive analytics, graph-based learning, a Hybrid Contextual Retrieval-Augmented Generation (RAG) pipeline grounded in healthcare policy documents, and a dedicated HIPAA Compliance Agent to support privacy protection. Evaluated on a synthetic healthcare claims dataset, the framework achieved 98% traceability of reported numerical findings, validated 214 of 216 policy citations, and removed all 280 identified sensitive identifiers without modifying the underlying analysis. These findings pave the way for further research into Agentic AI as a framework for explainable, policy-aware, and privacy-preserving healthcare claim denial management.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-06T12:51:18Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sofia Campos</name>
+    </author>
+    <author>
+      <name>Carlos Martins</name>
+    </author>
+    <author>
+      <name>Pedro Pires</name>
+    </author>
+    <author>
+      <name>João Gama</name>
+    </author>
+    <author>
+      <name>Bruno Veloso</name>
+    </author>
+    <author>
+      <name>Pedro Santos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.04625v1</id>
+    <title>QueryFlow: Multi-Hop Graph Retrieval with Adaptive Query Evolution</title>
+    <updated>2026-11-03T10:14:30Z</updated>
+    <link href="https://arxiv.org/abs/2611.04625v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.04625v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-hop retrieval-augmented generation (RAG) supports Web information seeking and fact verification by recovering complementary evidence across related pages within a limited retrieval budget. Scoring evidence independently against the original question can miss supporting units whose relevance emerges through intermediate facts. Iterative retrieval incorporates these facts into subsequent queries, while graph retrieval explicitly models relations among evidence units. Yet fixed-query graph retrievers update entity representations without adapting the query condition to accumulated relational context. We view multi-hop evidence recovery as the coupled evolution of evidence representations and query conditions, with accumulated context informing both what the retriever represents and how it searches for complementary evidence. QueryFlow realizes this perspective by recurrently integrating query-conditioned summaries of graph context into a shared query state, which controls boundary inputs and relation features for subsequent propagation. Across four representative multi-hop question answering (QA) datasets, QueryFlow achieves macro Recall@10 (R@10), Full Recall@10 (FR@10), and LLM-Acc gains of 4.98, 8.40, and 8.0 percentage points over representative baselines, respectively.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-03T10:14:30Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Manzong Huang</name>
+    </author>
+    <author>
+      <name>Chenyang Bu</name>
+    </author>
+    <author>
+      <name>Yi He</name>
+    </author>
+    <author>
+      <name>Jiapu Wang</name>
+    </author>
+    <author>
+      <name>Xindong Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.05596v1</id>
+    <title>RAGCompass: Generalizable Retriever Routing via Reranking</title>
+    <updated>2026-11-03T20:36:24Z</updated>
+    <link href="https://arxiv.org/abs/2611.05596v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.05596v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Different retrievers exist for retrieval-augmented generation, yet none performs best for all queries. Therefore, the key question is: given a query and retrieved passages from different retrievers, which one is most suited for that query? Existing routers usually make predictions from query-specific features and a fixed pool of retrievers; such routers have no output for an unseen retriever and are incapable by design on a new corpus. To fill these gaps, RAGCompass reads the retrieved passage sets themselves: passages from an unfamiliar retriever or corpus stay directly comparable to other passages, so routing stays well designed where a query-only map would fail. We contrastively fine-tune a reranker against the answer each evidence set produces, which accounts for most of the gain; a small comparison head adds a moderate improvement, and neither component has retriever-specific parameters. RAGCompass improves answer F1 by 28% relative to the best fixed retriever, and outperforms fusion baselines, three query-only routers, and a prompted 8B language model. Generalization experiments show that RAGCompass keeps most of its gain under an unseen corpus, retriever, or reader, while query-only baselines fall to the best fixed retriever or below.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-03T20:36:24Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Valentin Six</name>
+    </author>
+    <author>
+      <name>Mufei Li</name>
+    </author>
+    <author>
+      <name>Dongqi Fu</name>
+    </author>
+    <author>
+      <name>Yinglong Xia</name>
+    </author>
+    <author>
+      <name>Hong Li</name>
+    </author>
+    <author>
+      <name>Pan Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.07517v1</id>
+    <title>Embodied RAG++: Retrieval-Augmented Generation From What Exists to What Works in Embodied Scenes</title>
+    <updated>2026-11-05T06:26:12Z</updated>
+    <link href="https://arxiv.org/abs/2611.07517v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.07517v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To serve a request in a human environment, a robot system must find an object that satisfies a functional requirement and a robot that can feasibly reach it. Scene graphs record which objects exist and where, but they often omit capabilities documented only in product manuals. Retrieval-augmented generation methods can read such manuals, yet they rarely reason jointly over object capabilities, physical instances, robot states, and dynamic connectivity. We introduce E2W-Bench, the Exists-to-Works Benchmark, which links dynamic hybrid scene graphs with real product manuals to evaluate capability-grounded robot--object assignment under availability, mobility, vertical-reach, and connector constraints. We also present Embodied RAG++, a spatially grounded retrieval framework that scopes retrieval to the manuals linked to candidate objects, caches extracted capabilities per product model, and resolves robot--object feasibility through deterministic spatial reasoning. On E2W-Bench, Embodied RAG++ reaches a pair accuracy of 0.90 with Qwen2.5-32B and 1.00 with Llama3.3-70B, compared with at most 0.30 and 0.55 for the baselines, while requiring the shortest preprocessing time among the retrieval-based methods and tying for the lowest total token count.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-05T06:26:12Z</published>
+    <arxiv:comment>accepted to SII 2027</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Fan Yang</name>
+    </author>
+    <author>
+      <name>Tatsuya Kikuzuki</name>
+    </author>
+    <author>
+      <name>Jun Liang</name>
+    </author>
+    <author>
+      <name>Jun Liu</name>
+    </author>
+    <author>
+      <name>Wenkai Li</name>
+    </author>
+    <author>
+      <name>Ryosuke Kawamura</name>
+    </author>
+    <author>
+      <name>Ananya Hazarika</name>
+    </author>
+    <author>
+      <name>Prajit KrisshnaKumar</name>
+    </author>
+    <author>
+      <name>Shaunak Mehta</name>
+    </author>
+    <author>
+      <name>Yuushi Toyoda</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.09414v1</id>
+    <title>Typed-Centrality Grounding for Agentic GraphRAG: A Symbolic Approach for Agentic Reasoning</title>
+    <updated>2026-11-06T12:45:23Z</updated>
+    <link href="https://arxiv.org/abs/2611.09414v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.09414v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge Graphs (KGs) and Large Language Models (LLMs) represent two approaches for knowledge representation and reasoning over heterogeneous data. Recent research has explored their integration through Graph Retrieval-Augmented Generation (GraphRAG) systems, which use KGs to provide structured context to LLMs. However, existing GraphRAG approaches treat KGs as homogeneous graphs and rely on textual similarity between the input prompt and the context, rather than using it as a source of deterministic knowledge.
+  This work proposes an agent-based GraphRAG system that introduces a symbolic layer to integrate deterministic reasoning alongside text similarities. This approach is based on the definition of typed centralities for KGs, where centrality measures are computed separately for each specific KG's class. This information is used to construct a symbolic representation that is provided to the LLM as a deterministic source. The proposed system was mathematically validated and evaluated on a real-world POLE (Person, Object, Location, Event) dataset, comparing reasoning and information retrieval with and without the symbolic layer. The results indicate that the our approach leads to responses that are more consistent with the context, improving the generated outputs.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-06T12:45:23Z</published>
+    <arxiv:comment>Preprint. 7 pages. Final version published in 2026 IEEE Symposium on Computers and Communications (ISCC), DOI: 10.1109/ISCC70364.2026.11739974</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>2026 IEEE Symposium on Computers and Communications (ISCC), pp. 1-7, 2026</arxiv:journal_ref>
+    <author>
+      <name>Rosario Napoli</name>
+    </author>
+    <author>
+      <name>Antonio Celesti</name>
+    </author>
+    <author>
+      <name>Massimo Villari</name>
+    </author>
+    <author>
+      <name>Maria Fazio</name>
+    </author>
+    <arxiv:doi>10.1109/ISCC70364.2026.11739974</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ISCC70364.2026.11739974" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.08935v1</id>
+    <title>SkinMind: Equipping Agentic RAG with Human-Inspired Graph Probing for Reliable Dermatology AI</title>
+    <updated>2026-11-06T03:24:41Z</updated>
+    <link href="https://arxiv.org/abs/2611.08935v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.08935v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reliable dermatology AI requires access to verifiable evidence distributed across heterogeneous textual and visual sources. However, conventional retrieval-augmented generation (RAG) typically relies on one-shot retrieval from flat corpora, limiting its ability to adapt retrieval granularity, explore multi-hop relations, and integrate multimodal clinical evidence. We introduce SkinMind, a multimodal agentic RAG framework that equips policy models with human-inspired graph probing for autonomous evidence seeking. SkinMind organizes retrieval as an iterative interaction between an orchestrator and a graph environment. Through eight hierarchical graph-probing tools, the orchestrator progressively identifies relevant entities, inspects node-level information, traverses relations and paths, and retrieves source-text and visual evidence. This progressive-disclosure design allows the model to adaptively determine the retrieval modality, exploration direction, and evidence granularity while constructing a query-specific evidence subgraph. To support autonomous graph probing, we construct SkinMind-KG from a 62M-token corpus of dermatology guidelines and textbooks and 423K images, guided by a dermatologist-informed schema and a conflict-resolution mechanism. The resulting graph contains over 1.0M nodes and 2.0M edges, unifying textual, relational, and visual evidence for retrieval. Across six dermatology VQA benchmarks and two policy-model settings, SkinMind improves the average score over direct answering by 8.70 and 8.89 points with GPT-5.4-mini and Gemini-2.5-Flash, respectively, while consistently outperforming competing RAG methods. Together, SkinMind and SkinMind-KG provide an effective foundation for evidence-grounded multimodal reasoning in dermatology.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-06T03:24:41Z</published>
+    <arxiv:comment>35 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Jing Hao</name>
+    </author>
+    <author>
+      <name>Weinan Zhou</name>
+    </author>
+    <author>
+      <name>Zhihong Lu</name>
+    </author>
+    <author>
+      <name>Yaling Shen</name>
+    </author>
+    <author>
+      <name>Yiming Xu</name>
+    </author>
+    <author>
+      <name>Yefeng Liu</name>
+    </author>
+    <author>
+      <name>Siyuan Yan</name>
+    </author>
+    <author>
+      <name>Shuaibo Li</name>
+    </author>
+    <author>
+      <name>Ming Dai</name>
+    </author>
+    <author>
+      <name>Junjun He</name>
+    </author>
+    <author>
+      <name>Zuyi Zhu</name>
+    </author>
+    <author>
+      <name>Jinjie Gu</name>
+    </author>
+    <author>
+      <name>Lijun Wu</name>
+    </author>
+    <author>
+      <name>Jian Wang</name>
+    </author>
+  </entry>
+</feed>
